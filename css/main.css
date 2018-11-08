@@ -15,6 +15,7 @@ body {
 }
 
 img {
+  display: block;
   width: 100%;
 }
 
@@ -101,7 +102,6 @@ div {
 }
 
 .images {
-  display: block;
   width: 100px;
   margin: 0 0 1.5rem;
   align-self: center;

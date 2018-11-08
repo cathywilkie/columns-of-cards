@@ -11,13 +11,14 @@ body {
   margin: 0;
   background-color: #f2f2f2;
   font-family: "Open Sans", sans-serif;
-  font-size: .875rem;
+  padding: 0 1.75em;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
+  margin: .75em 0;
 }
 
 h3 {
@@ -27,6 +28,8 @@ h3 {
 
 .names {
   font-style: italic;
+  margin: 0;
+  font-size: .875rem;
 }
 
 .cards {
@@ -42,7 +45,7 @@ h3 {
   justify-content: space-between;
   flex-direction: column;
   list-style-type: none;
-  border-left: .1em solid #333;
+  border-left: 1px solid #333;
   width: 25%;
 }
 
@@ -62,8 +65,9 @@ h3 {
   background-color: #999;
 }
 
-ul li p {
+.text {
   margin: 0 0 1.5rem;
+  flex-grow: 1;
 }
 
 div {

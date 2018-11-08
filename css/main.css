@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+  font-size: .875rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 700;
+  margin: 0;
+}
+
+section {
+  width: 25%;
+}
+
+.cards {
+  padding: 0;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards li {
+  padding: .75rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  list-style-type: none;
+  border-left: .1em solid #333;
+}
+
+.card1 {
+  background-color: #e2e2e2;
+}
+
+.card2 {
+  background-color: #ccc;
+}
+
+.card3 {
+  background-color: #aaa;
+}
+
+.card4 {
+  background-color: #999;
+}
+
+ul li p {
+  margin: 0 0 1.5rem;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  color: #fff;
+  padding: .4em .75em .3em;
+  background-color: #333;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 3px solid #333;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.images {
+  width: 100px;
+  margin: 0 0 1.5rem;
+  align-self: center;
+}
